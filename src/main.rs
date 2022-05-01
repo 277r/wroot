@@ -3,6 +3,8 @@ use std::env;
 // source: https://www.youtube.com/watch?v=I7TFYa1v9xI
 // this algorithm can probably implemented in binary, and might work better
 // even though the algorithm isn't very well designed for computers, it is still fun to ask people to implement this, to see how they program
+
+// the real algorithm is in the main function. this is just a helper function
 // not really a root, it finds the largest power without exceeding in_val
 fn find_root(in_val : u128) -> u128 {
 	let mut v = in_val;
