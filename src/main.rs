@@ -82,7 +82,7 @@ fn main() {
 	// combine
 	let result = first_part_res * 10 + last_digit_res;
 
-	print!("{}", result);
+	println!("{}", result);
 	
 
 }
